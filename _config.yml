@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: DrugBot 💊
-# favicon: favicon.ico
+title: DrugBot
+favicon: favicon.ico
 logo: favicon.png
 # masthead: favicon.png 
 email: avi_maayan@mssm.edu
