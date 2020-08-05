@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms of Service
-permalink: /privacy/
+permalink: /terms/
 ---
 
 these are our terms... 
