@@ -5,7 +5,7 @@ permalink: /privacy policy/
 ---
 
 ### Introduction
-The Ma'ayan Lab ("us", "we", or "our") operates GeneBot (the "Service").
+The Ma'ayan Lab ("us", "we", or "our") operates DrugBot (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
@@ -13,7 +13,7 @@ We use your data to provide and improve the Service. By using the Service, you a
 
 ### Definitions
 **Service**
-- Service is the http://karmabot.chat website operated by Sliday Limited
+- Service is the GeneBot application operated by the Ma'ayan Lab
 
 **Personal Data**
 - Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).
@@ -113,4 +113,4 @@ We will let you know via email and/or a prominent notice on our Service, prior t
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
 ## Contact Us
-If you have any questions about this Privacy Policy, please contact us: Avi.Maayan@mssm.edu
+If you have any questions about this Privacy Policy, please contact us.
