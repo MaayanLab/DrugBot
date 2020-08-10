@@ -1,10 +1,10 @@
 ---
 layout: page
-title: How To Use DrugBot
+title: How To Use 
 permalink: /howto/
 ---
 
-## Functions
+## DrugBot Functions
 
 ### Drug Summary 
 DrugBot enables users to submit a drug or small molecule of interest and outputs information pertaining to the term searched. The **/drug** command provides a summary about the drug and links to various databases. 
