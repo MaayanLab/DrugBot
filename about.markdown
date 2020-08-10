@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Feel free to contact us at <mailto:maayanlabapps@gmail.com> ✉️
+#### Feel free to contact us at <mailto:maayanlabapps@gmail.com> ✉️
 
 As more biomedical research groups have begun working remotely, online collaboration platforms such as Slack have become increasingly popular within the field of biomedical research. Despite this, there were currently no biomedical research Slack applications available. In order to bridge this gap, we developed **DrugBot**, a slack application that integrate various tools developed by the Ma'ayan Lab to perform drug and drug set analyses directly within Slack via interactions with a Slack bot.
 
