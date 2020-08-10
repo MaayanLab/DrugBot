@@ -21,7 +21,7 @@ The drug is searched through **DrugBank** and [**L1000FWD**](https://amp.pharm.m
 ### Gene Enrichment Analysis
 DrugBot enables users to submit a drug set for enrichment analysis. When users enter a drug set, the **/drugset** command can be used to trigger gene enrichment analysis to be performed. Users can upload a csv file with the drug set for analysis by calling **@drugbot**. Additionally, users can specify which gene-set library they want to be displayed in their results in Slack.
 
-The drug set is analyzed using the (**DrugEnrichr** API)[https://amp.pharm.mssm.edu/DrugEnrichr/help#api]. The bot will output a link to (**DrugEnrichr**)[https://amp.pharm.mssm.edu/DrugEnrichr/] for the drug set entered as well as summary statistics about the drug set. A bar graph displaying the top 10 enriched terms for the user selected gene-set library will be attached as a pdf file. 
+The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.edu/DrugEnrichr/help#api). The bot will output a link to [**DrugEnrichr**](https://amp.pharm.mssm.edu/DrugEnrichr/) for the drug set entered as well as summary statistics about the drug set. A bar graph displaying the top 10 enriched terms for the user selected gene-set library will be attached as a pdf file. 
 
 ✦ **Input Format:** 
 - Input (no library specified): 

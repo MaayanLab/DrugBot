@@ -10,7 +10,7 @@ As more biomedical research groups have begun working remotely, online collabora
 
 DrugBot delivers knowledge about drugs and small molecules into the Slack workspace, streamlining communication and data interpretation. By simply calling various slash commands, users can share comprehensive drug centered summaries and perform enrichment analyses.
 
-#### Link to Github Source Code: (https://github.com/MaayanLab/DrugBot)[https://github.com/MaayanLab/DrugBot]
+#### Link to Github Source Code: [https://github.com/MaayanLab/DrugBot](https://github.com/MaayanLab/DrugBot)
 
 #### Developed in the Ma'ayan Lab by
 - Julie Karam
