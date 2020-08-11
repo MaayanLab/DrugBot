@@ -1,0 +1,12 @@
+@import "minima";
+
+// Use grey background for code
+pre, code, .highlighter-rouge .highlight { background-color: #f8f8f8; }
+
+.site-title::before {
+	content: url("/assets/images/drugbot.png");
+	display: inline-block;
+	position: relative;
+	width: 37px;
+	top: 5px;
+}
