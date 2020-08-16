@@ -5,7 +5,7 @@ masthead: assets/images/drugbot.png
 # masthead: favicon.png 
 email: maayanlabapps@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A bioinformatics slack application developed by The Ma'ayan Laboratory of Computational Systems Biology
+  DrugBot is a Slack application developed by the Ma'ayan Laboratory of Computational Systems Biology
 baseurl: "/DrugBot/" # the subpath of your site, e.g. /blog
 url: "https://maayanlab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MaayanLab

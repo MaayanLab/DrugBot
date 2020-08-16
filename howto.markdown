@@ -19,7 +19,7 @@ The drug is searched through **DrugBank** and [**L1000FWD**](https://amp.pharm.m
 ![image](/assets/images/drug_summary_output.png)
 
 ### Gene Enrichment Analysis
-DrugBot enables users to submit a drug set for enrichment analysis. When users enter a drug set, the **/drugset** command can be used to trigger gene enrichment analysis to be performed. Users can upload a csv file with the drug set for analysis by calling **@drugbot**. Additionally, users can specify which gene-set library they want to be displayed in their results in Slack.
+DrugBot enables users to submit a drug set for enrichment analysis. The /drugset command can be used to perform gene enrichment analysis by listing valid drug names following the command. Alternatively, users can upload a csv file with the drug set for analysis by calling **@drugbot**. Additionally, users can specify which gene-set library they want to be displayed in their results in Slack.
 
 The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.edu/DrugEnrichr/help#api). The bot will output a link to [**DrugEnrichr**](https://amp.pharm.mssm.edu/DrugEnrichr/) for the drug set entered as well as summary statistics about the drug set. A bar graph displaying the top 10 enriched terms for the user selected gene-set library will be attached as a pdf file. 
 
@@ -42,7 +42,7 @@ The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.
 ![image](/assets/images/drug_enrichment_output.png)
 
 ✦ **Gene Libraries:**
-When specifying a library for output, DrugBot will recognize **DrugEnrichr** library names or predefined short hands. DrugEnrichr library names can be found [here](https://amp.pharm.mssm.edu/DrugEnrichr/#stats). Library short hands are available for most recent gene set libraries.
+When specifying a library for output, DrugBot will recognize full **DrugEnrichr** library names or predefined short hands. Full DrugEnrichr library names can be found [here](https://amp.pharm.mssm.edu/DrugEnrichr/#stats). Library short hands are available for several widely-used gene set libraries.
 - Library short hands include:
     - GSA = Geneshot_Associated
     - GSPE = Geneshot_Predicted_Enrichr
@@ -52,7 +52,7 @@ When specifying a library for output, DrugBot will recognize **DrugEnrichr** lib
     - SIDER = SIDER_Side_Effects
 
 ✦ **Help Commands:**
-There are several built in help commands for performating enrichment analysis with GeneBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all commands can be found by calling: `/drugset help?`
+There are several built in help commands for performing enrichment analysis with GeneBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all commands can be found by calling: `/drugset help?`
 
 - `/drugset ?` → provides summary of how to use DrugBot for enrichment analysis  
 - `/drugset library?` → provides instructions on how to specify library for output
