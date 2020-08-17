@@ -13,4 +13,4 @@ layout: home
 
 ![image](/assets/images/drug_homepage2_v2.png)
 
-## Explore our sister Slack application: [GeneBot](https://maayanlab.github.io/GeneBot/) ![image](assets/images/genebot_icon.png)
+## Explore our sister Slack application: [GeneBot](https://maayanlab.github.io/GeneBot/)![image](assets/images/genebot_icon.png)
