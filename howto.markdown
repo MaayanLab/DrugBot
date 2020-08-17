@@ -59,4 +59,4 @@ There are several built in help commands for performing enrichment analysis with
 - `/drugset fileupload?` → provides instructions on how to upload file for analysis
 - `/drugset slashcommand?` → provides instructions on how to navigate /drugset command
 
-If you have any questions about how to use DrugBot, please contact us.
+If you have any questions about how to use DrugBot, please contact us at <mailto:maayanlabapps@gmail.com>.
