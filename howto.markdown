@@ -33,8 +33,8 @@ The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.
         - Drug list can be space or comma separated.
         - Library specified input must be contained by brackets.
 - Input (file upload): 
-    - `@drugbot *file*` 
-    - `@drugbot library *file*` 
+    - `@drugbot drugset *file*` 
+    - `@drugbot drugset library *file*` 
 
 ✦ **Example:** 
 - Input: `/drug DB *file*`
