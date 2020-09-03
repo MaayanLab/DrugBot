@@ -52,13 +52,13 @@ When specifying a library for output, DrugBot will recognize full **DrugEnrichr*
     - STITCH = STITCH_Target-seq_2015
     - SIDER = SIDER_Side_Effects
 
-### Help Commands**
+### Help Commands
 A list of all commands can by accessed by calling: `@drugbot help`
 
-✦ **Drug Summary Help**
-- If a user needs help with using the **/drug** command to retrieve a summary about a drug or small molecule, they can call the following command `/drug-help`.
+✦ **Drug Summary Help:**
+If a user needs help with using the **/drug** command to retrieve a summary about a drug or small molecule, they can call the following command `/drug-help`.
 
-✦ **Drug Summary Help**
+✦ **Drug Summary Help:**
 There are several built in help commands for performng enrichment analysis with DrugBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all enrichment analysis help commands can be found by calling: `/drugset-help`
 
 - `/drugset-help ?` → provides summary of how to use DrugBot for enrichment analysis  
