@@ -52,12 +52,18 @@ When specifying a library for output, DrugBot will recognize full **DrugEnrichr*
     - STITCH = STITCH_Target-seq_2015
     - SIDER = SIDER_Side_Effects
 
-✦ **Help Commands:**
-There are several built in help commands for performing enrichment analysis with GeneBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all commands can be found by calling: `/drugset help?`
+### Help Commands**
+A list of all commands can by accessed by calling: `@drugbot help`
 
-- `/drugset ?` → provides summary of how to use DrugBot for enrichment analysis  
-- `/drugset library?` → provides instructions on how to specify library for output
-- `/drugset fileupload?` → provides instructions on how to upload file for analysis
-- `/drugset slashcommand?` → provides instructions on how to navigate /drugset command
+✦ **Drug Summary Help**
+- If a user needs help with using the **/drug** command to retrieve a summary about a drug or small molecule, they can call the following command `/drug-help`.
+
+✦ **Drug Summary Help**
+There are several built in help commands for performng enrichment analysis with DrugBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all enrichment analysis help commands can be found by calling: `/drugset-help`
+
+- `/drugset-help ?` → provides summary of how to use DrugBot for enrichment analysis  
+- `/drugset-help library?` → provides instructions on how to specify library for output
+- `/drugset-help fileupload?` → provides instructions on how to upload file for analysis
+- `/drugset-help slashcommand?` → provides instructions on how to navigate /drugset command
 
 If you have any questions about how to use DrugBot, please contact us at <mailto:maayanlabapps@gmail.com>.
