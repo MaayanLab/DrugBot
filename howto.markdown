@@ -59,12 +59,4 @@ There are several built in help commands for performing analysis using DrugBot t
 - `/drugset-help fileupload?` → provides instructions on how to upload file for analysis
 - `/drugset-help slashcommand?` → provides instructions on how to navigate /drugset command
 
-✦ **Enrichment Analysis Help:**
-There are several built in help commands for performng enrichment analysis with DrugBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all enrichment analysis help commands can be found by calling: `/drugset-help`
-
-- `/drugset-help ?` → provides summary of how to use DrugBot for enrichment analysis  
-- `/drugset-help library?` → provides instructions on how to specify library for output
-- `/drugset-help fileupload?` → provides instructions on how to upload file for analysis
-- `/drugset-help slashcommand?` → provides instructions on how to navigate /drugset command
-
 If you have any questions about how to use DrugBot, please contact us at <mailto:maayanlabapps@gmail.com>.
