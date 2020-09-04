@@ -36,7 +36,7 @@ The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.
         - [Here](/sampledrugs.csv) is a sample file that is properly formatted with a drug set. 
 
 ✦ **Example:** 
-- Input: `@drugbot drugset DB *file*`
+- Input: `@drugbot set DB *file*`
 - Output: 
 ![image](/assets/images/drug_enrichment_output.png)
 
