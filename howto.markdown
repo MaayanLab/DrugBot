@@ -19,7 +19,7 @@ The drug is searched through **DrugBank** and [**L1000FWD**](https://amp.pharm.m
 ![image](/assets/images/drug_summary_output.png)
 
 ### Gene Enrichment Analysis
-DrugBot enables users to submit a drug set for enrichment analysis. The /drugset command can be used to perform gene enrichment analysis by listing valid drug names following the command. Alternatively, users can upload a CSV file with the drug set for analysis by calling **@drugbot**. Additionally, users can specify which gene-set library they want to be displayed in their results in Slack.
+DrugBot enables users to submit a drug set for enrichment analysis. The /drugset command can be used to perform gene enrichment analysis by listing valid drug names following the command. Alternatively, users can upload a CSV file with the drug set for analysis by calling **@drugbot** followed by drugset. Additionally, users can specify which gene-set library they want to be displayed in their results in Slack.
 
 The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.edu/DrugEnrichr/help#api). The bot will output a link to [**DrugEnrichr**](https://amp.pharm.mssm.edu/DrugEnrichr/) for the drug set entered as well as summary statistics about the drug set. A bar graph displaying the top 10 enriched terms for the user selected gene-set library will be attached as a pdf file. 
 
@@ -31,11 +31,12 @@ The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.
         - Drug list can be space or comma separated.
         - Library specified input must be contained by brackets.
 - Input (file upload): 
-    - `@drugbot set *file*` 
-    - `@drugbot set library *file*` 
+    - `@drugbot drugset *file*` 
+    - `@drugbot drugset library *file*` 
+        - [Here](/sampledrugs.csv) is a sample file that is properly formatted with a drug set. 
 
 ✦ **Example:** 
-- Input: `/drug DB *file*`
+- Input: `@drugbot drugset DB *file*`
 - Output: 
 ![image](/assets/images/drug_enrichment_output.png)
 
@@ -54,6 +55,14 @@ There are several built in help commands for performing analysis using DrugBot t
 
 - `/drug-help` → provides a quick guide on using DrugBot to get information about a drug  
 - `/drugset-help` → provides summary of how to use DrugBot for enrichment analysis  
+- `/drugset-help library?` → provides instructions on how to specify library for output
+- `/drugset-help fileupload?` → provides instructions on how to upload file for analysis
+- `/drugset-help slashcommand?` → provides instructions on how to navigate /drugset command
+
+✦ **Enrichment Analysis Help:**
+There are several built in help commands for performng enrichment analysis with DrugBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all enrichment analysis help commands can be found by calling: `/drugset-help`
+
+- `/drugset-help ?` → provides summary of how to use DrugBot for enrichment analysis  
 - `/drugset-help library?` → provides instructions on how to specify library for output
 - `/drugset-help fileupload?` → provides instructions on how to upload file for analysis
 - `/drugset-help slashcommand?` → provides instructions on how to navigate /drugset command
