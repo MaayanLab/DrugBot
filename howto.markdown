@@ -26,15 +26,13 @@ The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.
 ✦ **Input Format:** 
 - Input (no library specified): 
     - `/drugset drug1, drug2, drug3... ` 
-    - `/drugset drug1 drug2 drug3... ` 
 - Input (library specified): 
     - `/drugset [library, drug1, drug2, drug3...] ` 
-    - `/drugset [library, drug1 drug2 drug3...] ` 
         - Drug list can be space or comma separated.
         - Library specified input must be contained by brackets.
 - Input (file upload): 
-    - `@drugbot drugset *file*` 
-    - `@drugbot drugset library *file*` 
+    - `@drugbot set *file*` 
+    - `@drugbot set library *file*` 
 
 ✦ **Example:** 
 - Input: `/drug DB *file*`
@@ -52,11 +50,12 @@ When specifying a library for output, DrugBot will recognize full **DrugEnrichr*
     - SIDER = SIDER_Side_Effects
 
 ✦ **Help Commands:**
-There are several built in help commands for performing enrichment analysis with GeneBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all commands can be found by calling: `/drugset help?`
+There are several built in help commands for performing analysis using DrugBot that can be called in Slack to provide concise summaries about different app features and functions. A list of all commands can be found by calling: `@DrugBot help`
 
-- `/drugset ?` → provides summary of how to use DrugBot for enrichment analysis  
-- `/drugset library?` → provides instructions on how to specify library for output
-- `/drugset fileupload?` → provides instructions on how to upload file for analysis
-- `/drugset slashcommand?` → provides instructions on how to navigate /drugset command
+- `/drug-help` → provides a quick guide on using DrugBot to get information about a drug  
+- `/drugset-help` → provides summary of how to use DrugBot for enrichment analysis  
+- `/drugset-help library?` → provides instructions on how to specify library for output
+- `/drugset-help fileupload?` → provides instructions on how to upload file for analysis
+- `/drugset-help slashcommand?` → provides instructions on how to navigate /drugset command
 
 If you have any questions about how to use DrugBot, please contact us at <mailto:maayanlabapps@gmail.com>.
