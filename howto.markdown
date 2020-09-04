@@ -18,10 +18,10 @@ The drug is searched through **DrugBank** and [**L1000FWD**](https://amp.pharm.m
 - Output: 
 ![image](/assets/images/drug_summary_output.png)
 
-### Gene Enrichment Analysis
-DrugBot enables users to submit a drug set for enrichment analysis. The /drugset command can be used to perform gene enrichment analysis by listing valid drug names following the command. Alternatively, users can upload a CSV file with the drug set for analysis by calling **@drugbot** followed by drugset. Additionally, users can specify which gene-set library they want to be displayed in their results in Slack.
+### Drug Enrichment Analysis
+DrugBot enables users to submit a drug set for enrichment analysis. The /drugset command can be used to perform drug enrichment analysis by listing valid drug names following the command. Alternatively, users can upload a CSV file with the drug set for analysis by calling **@drugbot** followed by drugset. Additionally, users can specify which drug-set library they want to be displayed in their results in Slack.
 
-The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.edu/DrugEnrichr/help#api). The bot will output a link to [**DrugEnrichr**](https://amp.pharm.mssm.edu/DrugEnrichr/) for the drug set entered as well as summary statistics about the drug set. A bar graph displaying the top 10 enriched terms for the user selected gene-set library will be attached as a pdf file. 
+The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.edu/DrugEnrichr/help#api). The bot will output a link to [**DrugEnrichr**](https://amp.pharm.mssm.edu/DrugEnrichr/) for the drug set entered as well as summary statistics about the drug set. A bar graph displaying the top 10 enriched terms for the user selected drug-set library will be attached as a pdf file. 
 
 ✦ **Input Format:** 
 - Input (no library specified): 
@@ -40,8 +40,8 @@ The drug set is analyzed using the [**DrugEnrichr** API](https://amp.pharm.mssm.
 - Output: 
 ![image](/assets/images/drug_enrichment_output.png)
 
-✦ **Gene Libraries:**
-When specifying a library for output, DrugBot will recognize full **DrugEnrichr** library names or predefined short hands. Full DrugEnrichr library names can be found [here](https://amp.pharm.mssm.edu/DrugEnrichr/#stats). Library short hands are available for several widely-used gene set libraries.
+✦ **Drug Libraries:**
+When specifying a library for output, DrugBot will recognize full **DrugEnrichr** library names or predefined short hands. Full DrugEnrichr library names can be found [here](https://amp.pharm.mssm.edu/DrugEnrichr/#stats). Library short hands are available for several widely-used drug set libraries.
 - Library short hands include:
     - GSA = Geneshot_Associated
     - GSPE = Geneshot_Predicted_Enrichr
